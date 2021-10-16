@@ -591,7 +591,7 @@ But don't forget to do coding problems from above while you learn!
 - [x] TopCoder (includes recurrence relations and master theorem):
   - [Computational Complexity: Section 1](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-1/)
   - [Computational Complexity: Section 2](https://www.topcoder.com/community/competitive-programming/tutorials/computational-complexity-section-2/)
-- [ ] [Cheat sheet](http://bigocheatsheet.com/)
+- [x] [Cheat sheet](http://bigocheatsheet.com/)
 
 Well, that's about enough of that.
 
@@ -602,12 +602,13 @@ if you can identify the runtime complexity of different algorithms. It's a super
 
 - ### Arrays
 
-  - [ ] About Arrays:
+  - [x] About Arrays:
     - [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
     - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
     - [Dynamic Arrays (video)](https://www.coursera.org/lecture/data-structures/dynamic-arrays-EwbnV)
     - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-  - [ ] Implement a vector (mutable array with automatic resizing):
+  - [x] https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/
+  - [] Implement a vector (mutable array with automatic resizing):
     - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
     - [ ] New raw data array with allocated memory
       - can allocate int array under the hood, just not use its features
@@ -626,25 +627,25 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] resize(new_capacity) // private function
       - when you reach capacity, resize to double the size
       - when popping an item, if size is 1/4 of capacity, resize to half
-  - [ ] Time
+  - [x] Time
     - O(1) to add/remove at end (amortized for allocations for more space), index, or update
     - O(n) to insert/remove elsewhere
-  - [ ] Space
+  - [x] Space
     - contiguous in memory, so proximity helps performance
     - space needed = (array capacity, which is >= n) \* size of item, but even if 2n, still O(n)
 
 - ### Linked Lists
 
   - [ ] Description:
-    - [ ] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
+    - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
     - [ ] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
     - [ ] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-  - [ ] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation
-  - [ ] Linked List vs Arrays:
+  - [x] [C Code (video)](https://www.youtube.com/watch?v=QN6FPiD0Gzo) - not the whole video, just portions about Node struct and memory allocation
+  - [x] Linked List vs Arrays:
     - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
     - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-  - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-  - [ ] Gotcha: you need pointer to pointer knowledge:
+  - [x] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
+  - [x] Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
     - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
